@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Healthy Rice Leaf",
+    "Leaf Blast",
+    "Leaf scald",
+    "Sheath Blight"
+  ],
+  "class_to_idx": {
+    "Bacterial Leaf Blight": 0,
+    "Brown Spot": 1,
+    "Healthy Rice Leaf": 2,
+    "Leaf Blast": 3,
+    "Leaf scald": 4,
+    "Sheath Blight": 5
+  },
+  "input_size": 160,
+  "backbone": "mobilenet_v2",
+  "dataset_name": "Rice_Leaf_AUG",
+  "total_images_in_dataset": 3829,
+  "trained_samples": 900,
+  "val_accuracy": 78.57,
+  "model_file": "rice_leaf_mobilenet.pth",
+  "trained_at": "2026-09-26 12:37:09"
+}

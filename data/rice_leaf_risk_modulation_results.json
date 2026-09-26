@@ -1,0 +1,283 @@
+[
+  {
+    "true_dataset_category": "Bacterial Leaf Blight",
+    "sample_image": "20231006_164208.jpg",
+    "vision_ai": {
+      "predicted_condition": "Bacterial Leaf Blight",
+      "scientific_name": "Xanthomonas oryzae pv. oryzae",
+      "confidence_pct": 75.7,
+      "severity_level": "Moderate",
+      "damage_percentage": 14.6,
+      "heatmap_url": "/uploads/heatmaps/xai_heatmap_20231006_164208.jpg",
+      "needs_expert_validation": true
+    },
+    "risk_modulator": {
+      "final_composite_score": 76.7,
+      "risk_tier": "High",
+      "visual_evidence_score": 75.7,
+      "weather_suitability_score": 84.0,
+      "crop_susceptibility_score": 74.2,
+      "geo_proximity_score": 68.9,
+      "pest_pressure_score": 77.7,
+      "top_xai_factors": [
+        {
+          "factor": "Visual Symptom Evidence",
+          "score": 75.7,
+          "weight": 0.35,
+          "impact": "High",
+          "description": "Image indicates distinct target-board concentric lesions on leaf surface."
+        },
+        {
+          "factor": "Weather & Microclimate Suitability",
+          "score": 84.0,
+          "weight": 0.25,
+          "impact": "High",
+          "description": "Relative humidity at 86% with persistent morning dew fosters blast & blight propagation.."
+        },
+        {
+          "factor": "Phenological Stage Susceptibility",
+          "score": 74.2,
+          "weight": 0.15,
+          "impact": "High",
+          "description": "Crop is at Tillering to Panicle Initiation stage, where dense foliage canopy reduces air circulation."
+        }
+      ]
+    },
+    "ipm_cultural_control": "Drain field flood water temporarily during early epidemic phase. Avoid excessive top-dressing of nitrogen; split nitroge...",
+    "ipm_chemical_cibrc": "Copper Oxychloride 50% WP (1 kg/ha) + Streptomycin sulphate + Tetracycline hydrochloride combination (100 g/ha) strictly...",
+    "telugu_advisory": "\u0c35\u0c30\u0c3f \u0c2c\u0c3e\u0c15\u0c4d\u0c1f\u0c40\u0c30\u0c3f\u0c2f\u0c32\u0c4d \u0c06\u0c15\u0c41 \u0c0e\u0c02\u0c21\u0c41 \u0c24\u0c46\u0c17\u0c41\u0c32\u0c41 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15 \u2014 \u0c24\u0c15\u0c4d\u0c37\u0c23 \u0c1a\u0c30\u0c4d\u0c2f\u0c32\u0c41"
+  },
+  {
+    "true_dataset_category": "Brown Spot",
+    "sample_image": "20231006_165550.jpg",
+    "vision_ai": {
+      "predicted_condition": "Brown Spot",
+      "scientific_name": "Bipolaris oryzae",
+      "confidence_pct": 88.2,
+      "severity_level": "Mild",
+      "damage_percentage": 2.6,
+      "heatmap_url": "/uploads/heatmaps/xai_heatmap_20231006_165550.jpg",
+      "needs_expert_validation": true
+    },
+    "risk_modulator": {
+      "final_composite_score": 81.1,
+      "risk_tier": "Very High",
+      "visual_evidence_score": 88.2,
+      "weather_suitability_score": 84.0,
+      "crop_susceptibility_score": 74.2,
+      "geo_proximity_score": 68.9,
+      "pest_pressure_score": 77.7,
+      "top_xai_factors": [
+        {
+          "factor": "Visual Symptom Evidence",
+          "score": 88.2,
+          "weight": 0.35,
+          "impact": "High",
+          "description": "Image indicates distinct target-board concentric lesions on leaf surface."
+        },
+        {
+          "factor": "Weather & Microclimate Suitability",
+          "score": 84.0,
+          "weight": 0.25,
+          "impact": "High",
+          "description": "Relative humidity at 86% with persistent morning dew fosters blast & blight propagation.."
+        },
+        {
+          "factor": "Phenological Stage Susceptibility",
+          "score": 74.2,
+          "weight": 0.15,
+          "impact": "High",
+          "description": "Crop is at Tillering to Panicle Initiation stage, where dense foliage canopy reduces air circulation."
+        }
+      ]
+    },
+    "ipm_cultural_control": "Correct soil nutritional deficiencies, especially potassium, silicon, and zinc. Avoid drought stress and water stagnatio...",
+    "ipm_chemical_cibrc": "Protective foliar application: Mancozeb 75% WP @ 2 g/L or Propiconazole 25% EC @ 1 ml/L at tillering and boot leaf stage...",
+    "telugu_advisory": "\u0c35\u0c30\u0c3f \u0c0e\u0c02\u0c21\u0c3f \u0c2e\u0c1a\u0c4d\u0c1a \u0c24\u0c46\u0c17\u0c41\u0c32\u0c41 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15 \u2014 \u0c2a\u0c4b\u0c37\u0c15 \u0c28\u0c3f\u0c30\u0c4d\u0c35\u0c39\u0c23"
+  },
+  {
+    "true_dataset_category": "Healthy Rice Leaf",
+    "sample_image": "20231006_163255.jpg",
+    "vision_ai": {
+      "predicted_condition": "Healthy Rice Leaf",
+      "scientific_name": "Oryza sativa",
+      "confidence_pct": 99.8,
+      "severity_level": "Mild",
+      "damage_percentage": 6.9,
+      "heatmap_url": "/uploads/heatmaps/xai_heatmap_20231006_163255.jpg",
+      "needs_expert_validation": false
+    },
+    "risk_modulator": {
+      "final_composite_score": 20.3,
+      "risk_tier": "Low",
+      "visual_evidence_score": 0.0,
+      "weather_suitability_score": 35.0,
+      "crop_susceptibility_score": 55.0,
+      "geo_proximity_score": 0.0,
+      "pest_pressure_score": 33.2,
+      "top_xai_factors": [
+        {
+          "factor": "Phenological Stage Susceptibility",
+          "score": 55.0,
+          "weight": 0.15,
+          "impact": "Low",
+          "description": "Current vegetative canopy has moderate disease resilience."
+        },
+        {
+          "factor": "Neighborhood Outbreak Proximity",
+          "score": 0.0,
+          "weight": 0.15,
+          "impact": "Low",
+          "description": "No active disease clusters within 10 km."
+        }
+      ]
+    },
+    "ipm_cultural_control": "Maintain optimal irrigation schedule with alternate wetting and drying. Adhere to recommended balanced fertilizer dosage...",
+    "ipm_chemical_cibrc": "No chemical treatment required. Crop foliage is vibrant, vigorous, and disease-free....",
+    "telugu_advisory": "\u0c35\u0c30\u0c3f \u0c2a\u0c02\u0c1f \u0c06\u0c30\u0c4b\u0c17\u0c4d\u0c2f\u0c02\u0c17\u0c3e \u0c09\u0c02\u0c26\u0c3f \u2014 \u0c38\u0c3e\u0c27\u0c3e\u0c30\u0c23 \u0c2a\u0c30\u0c4d\u0c2f\u0c35\u0c47\u0c15\u0c4d\u0c37\u0c23"
+  },
+  {
+    "true_dataset_category": "Leaf Blast",
+    "sample_image": "aug_0_101.jpg",
+    "vision_ai": {
+      "predicted_condition": "Leaf Blast",
+      "scientific_name": "Magnaporthe oryzae",
+      "confidence_pct": 81.2,
+      "severity_level": "Severe",
+      "damage_percentage": 34.3,
+      "heatmap_url": "/uploads/heatmaps/xai_heatmap_aug_0_101.jpg",
+      "needs_expert_validation": true
+    },
+    "risk_modulator": {
+      "final_composite_score": 78.7,
+      "risk_tier": "High",
+      "visual_evidence_score": 81.2,
+      "weather_suitability_score": 84.0,
+      "crop_susceptibility_score": 74.2,
+      "geo_proximity_score": 68.9,
+      "pest_pressure_score": 77.7,
+      "top_xai_factors": [
+        {
+          "factor": "Visual Symptom Evidence",
+          "score": 81.2,
+          "weight": 0.35,
+          "impact": "High",
+          "description": "Image indicates distinct target-board concentric lesions on leaf surface."
+        },
+        {
+          "factor": "Weather & Microclimate Suitability",
+          "score": 84.0,
+          "weight": 0.25,
+          "impact": "High",
+          "description": "Relative humidity at 86% with persistent morning dew fosters blast & blight propagation.."
+        },
+        {
+          "factor": "Phenological Stage Susceptibility",
+          "score": 74.2,
+          "weight": 0.15,
+          "impact": "High",
+          "description": "Crop is at Tillering to Panicle Initiation stage, where dense foliage canopy reduces air circulation."
+        }
+      ]
+    },
+    "ipm_cultural_control": "Inspect the field systematically using a 'W' or 'Z' walking pattern. Remove chlorotic or pest-damaged foliage....",
+    "ipm_chemical_cibrc": "No chemical application recommended without confirmed diagnosis. Consult your local agricultural extension officer....",
+    "telugu_advisory": "\u0c35\u0c30\u0c3f \u0c05\u0c17\u0c4d\u0c17\u0c3f\u0c24\u0c46\u0c17\u0c41\u0c32\u0c41 (\u0c2c\u0c4d\u0c32\u0c3e\u0c38\u0c4d\u0c1f\u0c4d) \u0c24\u0c40\u0c35\u0c4d\u0c30 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15 \u2014 \u0c05\u0c24\u0c4d\u0c2f\u0c35\u0c38\u0c30 \u0c1a\u0c30\u0c4d\u0c2f\u0c32\u0c41"
+  },
+  {
+    "true_dataset_category": "Leaf scald",
+    "sample_image": "aug_0_0.jpg",
+    "vision_ai": {
+      "predicted_condition": "Leaf scald",
+      "scientific_name": "Microdochium albescens",
+      "confidence_pct": 91.3,
+      "severity_level": "Severe",
+      "damage_percentage": 44.8,
+      "heatmap_url": "/uploads/heatmaps/xai_heatmap_aug_0_0.jpg",
+      "needs_expert_validation": true
+    },
+    "risk_modulator": {
+      "final_composite_score": 82.2,
+      "risk_tier": "Very High",
+      "visual_evidence_score": 91.3,
+      "weather_suitability_score": 84.0,
+      "crop_susceptibility_score": 74.2,
+      "geo_proximity_score": 68.9,
+      "pest_pressure_score": 77.7,
+      "top_xai_factors": [
+        {
+          "factor": "Visual Symptom Evidence",
+          "score": 91.3,
+          "weight": 0.35,
+          "impact": "High",
+          "description": "Image indicates distinct target-board concentric lesions on leaf surface."
+        },
+        {
+          "factor": "Weather & Microclimate Suitability",
+          "score": 84.0,
+          "weight": 0.25,
+          "impact": "High",
+          "description": "Relative humidity at 86% with persistent morning dew fosters blast & blight propagation.."
+        },
+        {
+          "factor": "Phenological Stage Susceptibility",
+          "score": 74.2,
+          "weight": 0.15,
+          "impact": "High",
+          "description": "Crop is at Tillering to Panicle Initiation stage, where dense foliage canopy reduces air circulation."
+        }
+      ]
+    },
+    "ipm_cultural_control": "Ensure balanced NPK fertilization (120:60:40 kg/ha); avoid excess nitrogenous manure. Maintain wider plant spacing (20 x...",
+    "ipm_chemical_cibrc": "Carbendazim 50% WP @ 1 g/L or Hexaconazole 5% EC @ 2 ml/L sprayed when lesions first appear on upper leaves....",
+    "telugu_advisory": "\u0c35\u0c30\u0c3f \u0c32\u0c40\u0c2b\u0c4d \u0c38\u0c4d\u0c15\u0c3e\u0c32\u0c4d\u0c21\u0c4d \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15 \u2014 \u0c06\u0c15\u0c41 \u0c38\u0c02\u0c30\u0c15\u0c4d\u0c37\u0c23"
+  },
+  {
+    "true_dataset_category": "Sheath Blight",
+    "sample_image": "aug_0_100.jpg",
+    "vision_ai": {
+      "predicted_condition": "Sheath Blight",
+      "scientific_name": "Rhizoctonia solani",
+      "confidence_pct": 87.4,
+      "severity_level": "Severe",
+      "damage_percentage": 33.3,
+      "heatmap_url": "/uploads/heatmaps/xai_heatmap_aug_0_100.jpg",
+      "needs_expert_validation": true
+    },
+    "risk_modulator": {
+      "final_composite_score": 80.8,
+      "risk_tier": "High",
+      "visual_evidence_score": 87.4,
+      "weather_suitability_score": 84.0,
+      "crop_susceptibility_score": 74.2,
+      "geo_proximity_score": 68.9,
+      "pest_pressure_score": 77.7,
+      "top_xai_factors": [
+        {
+          "factor": "Visual Symptom Evidence",
+          "score": 87.4,
+          "weight": 0.35,
+          "impact": "High",
+          "description": "Image indicates distinct target-board concentric lesions on leaf surface."
+        },
+        {
+          "factor": "Weather & Microclimate Suitability",
+          "score": 84.0,
+          "weight": 0.25,
+          "impact": "High",
+          "description": "Relative humidity at 86% with persistent morning dew fosters blast & blight propagation.."
+        },
+        {
+          "factor": "Phenological Stage Susceptibility",
+          "score": 74.2,
+          "weight": 0.15,
+          "impact": "High",
+          "description": "Crop is at Tillering to Panicle Initiation stage, where dense foliage canopy reduces air circulation."
+        }
+      ]
+    },
+    "ipm_cultural_control": "Maintain adequate plant spacing; avoid dense planting. Apply slow-release nitrogen fertilizers. Skim floating sclerotia ...",
+    "ipm_chemical_cibrc": "Hexaconazole 5% SC @ 2 ml/L or Validamycin 3% L @ 2.5 ml/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1 ml/L appl...",
+    "telugu_advisory": "\u0c35\u0c30\u0c3f \u0c2a\u0c3e\u0c2e\u0c41 \u0c2a\u0c4a\u0c21 \u0c24\u0c46\u0c17\u0c41\u0c32\u0c41 (\u0c37\u0c40\u0c24\u0c4d \u0c2c\u0c4d\u0c32\u0c48\u0c1f\u0c4d) \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15"
+  }
+]

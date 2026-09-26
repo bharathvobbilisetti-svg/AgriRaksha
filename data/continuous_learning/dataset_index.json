@@ -1,0 +1,13 @@
+[
+  {
+    "case_id": 999,
+    "crop": "Tomato",
+    "image_url": "/uploads/unit_test_leaf.jpg",
+    "original_ai_prediction": "Early Blight",
+    "ground_truth_label": "Early Blight",
+    "expert_verifier": "Dr. Sharma (Senior Pathologist)",
+    "severity": "Moderate",
+    "is_active_learning_correction": false,
+    "recorded_at": "2026-09-26T04:44:43.652953"
+  }
+]

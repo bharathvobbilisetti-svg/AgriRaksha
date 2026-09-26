@@ -1,0 +1,25 @@
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local configuration, databases, and runtime uploads
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/*
+!backend/uploads/rice_samples/
+!backend/uploads/rice_samples/**
+*.log
+
+# Per-user editor settings
+.vscode/
